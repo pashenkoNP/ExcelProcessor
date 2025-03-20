@@ -5,7 +5,8 @@ namespace ExcelProcessor
 {
     public static class ExcelModule
     {
-        // Чтение листов из Excel-файла
+        // Чтение листов
+        // из Excel-файла
         public static List<Excel.Worksheet> ReadSheets(string filePath)
         {
             var excelApp = new Excel.Application();
